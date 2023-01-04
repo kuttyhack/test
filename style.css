@@ -1,0 +1,71 @@
+body{
+	background-image:url("image/back.jpg")
+}
+#main {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+#wish{
+	font-style:bold;
+}
+#girl{
+	width:150px;
+	border-radius:50%;
+	border:6px solid #a2d2ff;
+	
+}
+#name{
+	background-color:#a2d2ff;
+	padding:5px 10px;
+	border-radius:10%;
+	margin-top:0;
+}
+.gift-left{
+	padding-left:10%;
+	
+}
+.gift-rig{
+	padding-right:10%;
+	
+}
+.gift-img{
+	background-image: url("image/gift-cover.jpg");
+	background-size:cover;
+	width:200px;
+	height:200px;
+	border:6px solid black;
+	margin-left:20%;
+	
+}
+.gift-rimg{
+	background-image:url("image/gift-cover.jpg");
+	background-size:cover;
+	width:200px;
+	height:200px;
+	border:6px solid black;
+	margin-right:20%;
+	
+	
+}
+#first:hover{
+	background-image: url("image/happy.gif")
+}
+#rfirst:hover{
+	background-image:url("image/hot.gif")
+}
+#second:hover{
+	background-image:url("image/happy.gif")
+}
+#rsecond:hover{
+	background-image:url("image/hot.gif")
+}
+
+
+
+
+
+
+
+
+
